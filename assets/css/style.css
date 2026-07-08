@@ -104,15 +104,10 @@ p { margin: 0 0 16px; color: var(--ink-muted); }
   color: inherit;
 }
 
-.brand-mark { border-radius: 8px; }
-
-.brand-text { display: flex; flex-direction: column; line-height: 1.2; }
-.brand-name { font-weight: 700; color: var(--ink); }
-.brand-tagline {
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--brand);
+.brand-logo {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .primary-nav {
