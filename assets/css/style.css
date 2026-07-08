@@ -213,8 +213,6 @@ p { margin: 0 0 16px; color: var(--ink-muted); }
 
 /* Contact */
 .contact-grid { align-items: start; }
-.contact-direct { margin-top: 20px; }
-.contact-direct a { color: var(--brand-light); }
 
 .contact-form {
   display: grid;
