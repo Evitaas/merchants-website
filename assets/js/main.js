@@ -14,3 +14,14 @@ primaryNav.querySelectorAll('a').forEach((link) => {
     navToggle.setAttribute('aria-expanded', 'false');
   });
 });
+
+// After the contact form is sent, FormSubmit brings the visitor back to #contact-thanks: show the confirmation there.
+function showThanks() {
+  const thanks = document.getElementById('contact-thanks');
+  if (thanks && location.hash === '#contact-thanks') {
+    thanks.hidden = false;
+    thanks.scrollIntoView({ block: 'center' });
+  }
+}
+showThanks();
+window.addEventListener('hashchange', showThanks);
